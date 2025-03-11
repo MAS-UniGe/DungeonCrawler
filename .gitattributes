@@ -1,0 +1,4 @@
+*.jar filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+out/artifacts/Project_jar/Project.jar filter=lfs diff=lfs merge=lfs -text
+libs/javafx-sdk-17.0.14/lib/libjfxwebkit.so filter=lfs diff=lfs merge=lfs -text
