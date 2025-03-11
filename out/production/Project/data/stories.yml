@@ -1,0 +1,20 @@
+stories:
+  - story: greet the user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: provide help
+    steps:
+      - intent: ask_help
+      - action: utter_help
+
+  - story: player spotted by enemies
+    steps:
+      - intent: enemy_alert
+      - action: utter_enemy_alert
+
+  - story: user asks about enemies alive
+    steps:
+      - intent: ask_enemies_alive
+      - action: utter_enemies_status

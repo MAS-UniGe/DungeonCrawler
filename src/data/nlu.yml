@@ -1,0 +1,30 @@
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey there
+      - good morning
+      - good evening
+
+  - intent: ask_help
+    examples: |
+      - I need help
+      - Can you help me?
+      - How do I do this?
+      - What should I do?
+      - I don't understand
+
+  - intent: ask_enemies_alive
+    examples: |
+      - How many enemies are still alive?
+      - What is the number of enemies in the room?
+      - Tell me how many enemies are alive!
+      - Enemies left?
+      - Are there any enemies still alive?
+
+  - intent: enemy_alert
+    examples: |
+      - [StandardEnemyAgent-3456](enemy_name) have seen the player
+      - The player was spotted by [StandardEnemyAgent-184639](enemy_name)
+      - [StandardEnemyAgent-84026](enemy_name) have spotted the player

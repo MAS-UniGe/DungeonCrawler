@@ -1,0 +1,36 @@
+intents:
+  - greet
+  - ask_help
+  - enemy_alert
+  - ask_enemies_alive
+
+entities:
+  - enemy_name
+
+slots:
+  alive_enemies:
+    type: float
+    initial_value: 0
+    influence_conversation: true
+    mappings:
+      - type: custom
+
+  enemy_name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: enemy_name
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+
+  utter_help:
+    - text: "I am here to assist you. Please tell me what you need help with."
+
+  utter_enemies_status:
+    - text: "There are {alive_enemies} enemies still alive."
+
+  utter_enemy_alert:
+    - text: "{enemy_name} spotted you and is chasing you. He notified other enemies, and they're coming to your position. Beware!"
