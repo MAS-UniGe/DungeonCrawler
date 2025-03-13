@@ -1,4 +1,4 @@
-## Individual Project for the Symbolic and Distributed AI course, University of Genova, IT 
+## Individual Project for the Symbolic and Distributed AI and Natural Language Processing courses, University of Genova, IT 
 ## Author: Andrea Stucchi
 ## Teacher: Viviana Mascardi
 
