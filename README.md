@@ -1,6 +1,7 @@
 ## Individual Project for the Symbolic and Distributed AI and Natural Language Processing courses, University of Genova, IT 
 ## Author: Andrea Stucchi
-## Teacher: Viviana Mascardi
+### Teacher: Viviana Mascardi
+### Project delivered on February 2025
 
 Intelligent Dungeon Crawler: A Multi-Agent System with Chatbot Assistance 
 
